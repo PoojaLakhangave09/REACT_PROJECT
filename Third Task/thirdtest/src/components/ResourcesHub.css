@@ -1,0 +1,71 @@
+.resources-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f7f9fc;
+}
+
+.resources-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.resources-subtitle {
+  font-size: 1.1rem;
+  color: #475569;
+  margin-top: 0.5rem;
+}
+
+.resources-card {
+  background-color: #ffffff;
+  padding: 1.8rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.resources-card-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.resources-icon {
+  font-size: 1.8rem;
+  color: #6366f1;
+  margin-top: 0.3rem;
+}
+
+.resources-card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.resources-card p {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 0.75rem;
+}
+
+.resources-button {
+  background-color: #84cc16;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: not-allowed;
+}
+
+.resources-link {
+  background-color: #84cc16;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
